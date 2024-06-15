@@ -1,6 +1,7 @@
 "use client"
 
-import styles from '@/app/contact/contact.module.css';
+// import styles from '@/app/contact/contact.module.css';
+import styles from '../../contact/contact.module.css';
 import { Mulish } from "next/font/google";
 import { useState } from 'react';
 const mulish = Mulish({
