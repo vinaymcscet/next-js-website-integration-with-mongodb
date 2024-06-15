@@ -1,6 +1,6 @@
 import ContactCard from "@/app/components/ContactCard/page"
 // import styles from '@/app/contact/Contact.module.css';
-import styles from './src/app/contact/Contact.module.css';
+import styles from './contact.module.css';
 import ContactForm from "@/app/components/ContactForm/page";
 
 const Contact = () => {
