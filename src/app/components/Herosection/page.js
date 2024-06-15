@@ -1,5 +1,5 @@
-import herostyles from '@/app/styles/herosection.module.css';
-import styles from '@/app/styles/common.module.css';
+import herostyles from '../../styles/herosection.module.css';
+import styles from '../../styles/common.module.css';
 import Image from "next/image";
 import Link from "next/link";
 import { Mulish } from 'next/font/google';

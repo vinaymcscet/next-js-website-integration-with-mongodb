@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/app/components/Header/page";
+import Header from "./components/Header/page";
 import { Mulish } from 'next/font/google';
-import Footer from "@/app/components/Footer/page";
+import Footer from "./components/Footer/page";
 
 const inter = Inter({ subsets: ["latin"] });
 

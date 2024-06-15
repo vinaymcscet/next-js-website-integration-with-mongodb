@@ -1,6 +1,6 @@
 'use client'
 
-import styles from "@/app/styles/navbar.module.css"
+import styles from "../../styles/navbar.module.css"
 import { CgCloseR, CgMenu } from "react-icons/cg";
 import Link from "next/link";
 import { useState } from "react";

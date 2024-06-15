@@ -1,5 +1,5 @@
-import MovieCard from "@/app/components/MovieCard/page";
-import styles from '@/app/styles/common.module.css';
+import MovieCard from '../components/MovieCard/page';
+import styles from '../styles/common.module.css';
 
 const Movie = async () => {
   const url = process.env.RAPID_KEY;

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '@/app/styles/navbar.module.css';
-import Nav from '@/app/components/Nav/page';
+import styles from '../../styles/navbar.module.css';
+import Nav from '../../components/Nav/page';
 
 const Header = () => {
   return (
