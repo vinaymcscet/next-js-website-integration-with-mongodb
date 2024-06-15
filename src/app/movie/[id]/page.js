@@ -22,7 +22,7 @@ const page = async({params}) => {
           <h2 className={styles.movie_title}>   Netflix \ <span> {main_data.type != null ? main_data.type : 'NA'} </span> </h2>
           <div className={styles.card_section}>
               <div>
-                  <Image src={main_data.backgroundImage.url != '' ? main_data.backgroundImage.url : '/na.jpg'} alt={main_data.title ? main_data.title : 'No Title'} width={600} height={300} />
+                  <Image src={main_data.backgroundImage?.url != '' ? main_data.backgroundImage?.url : '/na.jpg'} alt={main_data.title ? main_data.title : 'No Title'} width={600} height={300} />
               </div>
               <div>
                   <h1>{main_data.title.length > 1 ? main_data.title : 'Movie Not available right now'}</h1>
